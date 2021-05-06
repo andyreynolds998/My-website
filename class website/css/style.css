@@ -1,0 +1,142 @@
+/*general*/
+/*--* is the universal aterisk, effects the whole page*/
+*{
+        margin-bottom:none;
+        padding-bottom:10px;
+}
+
+    body{
+        font-family: 'Lato', sans-serif;
+   }
+   h1,h3,h4{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    /*utilities*/
+    .container{
+        width:80%;
+        margin: auto auto;
+   }
+
+   .menu-buttons{
+    width: 30%;
+    margin: auto;
+    padding: 25px;
+    font-size: 20px;
+    word-spacing: 10px;
+   }
+
+  
+   .about-me-photo{
+    display: block;
+    border-radius: 75%;
+    image-resolution:inherit;
+    width: 150px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    } 
+
+    /*education*/
+    .education-name{
+        text-align: left;
+        font-style: bold;
+        font-size: 25px;
+        text-decoration: underline;
+        margin: 2px;
+    }
+    /*used an id here to easily adjust padding to make a more aesthetic appearance on the page*/
+    #education-name{
+        text-align: left;
+        font-style: bold;
+        font-size: 25px;
+        text-decoration: underline;
+        margin: 2px; 
+        padding-top: 15px;
+    }
+
+    .education-details{
+        text-align: left;
+        font-size:15px;
+        margin: 2px;
+    }
+
+   /*header*/
+   .site-header{
+       Height:400px;
+       background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fspace-galaxy_a25rbWuUmZqaraWkpJRnamtlrWZlbWU.jpg&f=1&nofb=1);
+       background-position: center center;
+       background-size: cover;
+       color: white;
+       text-align: center;
+    }
+
+    /*footer*/
+   .footer{
+        width:80%;
+        margin: auto auto;
+        text-align: center;
+        padding-top: 25px;
+   }
+
+   .footer-header{
+       background:rgb(0, 162, 255);
+       color: white;
+       text-align:center;
+       width:100%;
+       position: absolute;
+   }
+
+   /*menu*/
+   .menu{
+       background-color: rgb(0, 162, 255);
+       text-align: center;
+       padding:10px;
+    }
+
+   .menu a{
+       font-size: 18px;
+       color:white;
+       text-decoration: none;
+       margin-right: 50px;
+    }
+
+    /*pseudo-classes*/
+    a:visited{
+        color:lightblue;
+    }
+
+    a:link{
+        color:purple;
+    }  
+
+    a:hover{
+        color:red;
+    }
+
+    a:active{
+        color: black;
+    }
+
+    /*project*/
+    #project-link{ /*i made this an id, rather than a class, so i could make the links black font vs blue font like the various page links*/
+        font-size: 25px;
+        color: black;
+    }
+
+    #project-p{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
